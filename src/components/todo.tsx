@@ -40,6 +40,31 @@ export default function Todo() {
           <span key={index}>{item}</span>
         ))}
       </div>
+
+      <style jsx>{`
+        .todo-container {
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+        }
+
+        .todo-form {
+          display: flex;
+          gap: 10px;
+        }
+
+        .todo-list {
+          margin-top: 10px;
+        }
+
+        .todo-item {
+          padding: 8px;
+          background-color: #f0f0f0;
+          border-radius: 4px;
+        }
+      `}</style>
     </div>
   );
 }

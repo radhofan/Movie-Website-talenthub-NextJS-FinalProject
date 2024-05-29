@@ -15,7 +15,7 @@ function ItemCard({ id, name, imgCat }: Cat) {
   }
 
   return (
-    <div className="w-52 border-2 border-gray-900" onClick={handleClick}>
+    <div className="item-card bg-white rounded-lg shadow-lg p-4 transform transition-transform duration-200 hover:scale-105" onClick={handleClick}>
       <Link href={`/cat/${id}`}>
         <Image
           src={imgCat}
