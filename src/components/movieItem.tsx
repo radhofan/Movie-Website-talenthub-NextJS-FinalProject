@@ -9,7 +9,7 @@ interface Movie {
 
 function MovieItem({ id, title, poster_path }: Movie) {
   return (
-    <div className="item-card bg-white rounded-lg shadow-lg p-4 transform transition-transform duration-200 hover:scale-105">
+    <div className="item-card mt-14 bg-white rounded-lg shadow-lg p-4 transform transition-transform duration-200 hover:scale-105">
       <Link 
         href={{
           pathname: `/movie/[id]`,
