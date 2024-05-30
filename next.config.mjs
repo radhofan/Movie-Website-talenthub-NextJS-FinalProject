@@ -7,11 +7,6 @@ const nextConfig = {
         hostname: 'cdn2.thecatapi.com',
         port: '',
       },
-      {
-        protocol: 'https',
-        hostname: 'api.thecatapi.com',
-        port: '',
-      },
     ],
   },
 }
